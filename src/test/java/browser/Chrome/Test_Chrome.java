@@ -18,6 +18,7 @@ public class Test_Chrome {
 			driver.get("https://www.selenium.dev/");
 	  		Thread.sleep(3000);
 	  		System.out.println("this project is updated by gyan");
+	  		System.out.println("this project is updated by Sonalika");
 			
 			//TC-3 Specify Wait Time for 5 Sec
 			Thread.sleep(3000);
