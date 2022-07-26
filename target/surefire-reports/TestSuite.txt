@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 117.516 sec <<< FAILURE! - in TestSuite
+loginSauceDemo(topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2)  Time elapsed: 20.555 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2.loginSauceDemo(TestDataDriven_SwagDemo2.java:58)
+
+loginSauceDemo(topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2)  Time elapsed: 19.601 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2.loginSauceDemo(TestDataDriven_SwagDemo2.java:58)
+
+loginSauceDemo(topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2)  Time elapsed: 20.022 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2.loginSauceDemo(TestDataDriven_SwagDemo2.java:58)
+
+loginSauceDemo(topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2)  Time elapsed: 19.764 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at topic_DataDrivenFW_DataProvider.TestDataDriven_SwagDemo2.loginSauceDemo(TestDataDriven_SwagDemo2.java:58)
+

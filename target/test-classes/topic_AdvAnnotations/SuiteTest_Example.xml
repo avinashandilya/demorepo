@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+  <test name="front-end">
+    <classes>
+      <class name="topic_AdvAnnotations.TestUI"/>
+    
+      <class name="topic_AdvAnnotations.TestUI2"/>
+    </classes>
+  </test> <!-- Test -->
+   
+  <test name="back-end">
+    <classes>
+      <class name="topic_AdvAnnotations.TestBackendConfig"/>
+    
+      <class name="topic_AdvAnnotations.TestSecurity"/>
+    
+      <class name="topic_AdvAnnotations.TestDB"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

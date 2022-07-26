@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (1)]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="browser.Firefox.Test_Firefox">
+        <methods>
+          <include name="verifySeleniumPage"/>
+        </methods>
+      </class> <!-- browser.Firefox.Test_Firefox -->
+      <class name="browser.Chrome.Test_Chrome">
+        <methods>
+          <include name="verifySeleniumPage"/>
+        </methods>
+      </class> <!-- browser.Chrome.Test_Chrome -->
+      <class name="browser.Edge.Test_Edge">
+        <methods>
+          <include name="verifySeleniumPage"/>
+        </methods>
+      </class> <!-- browser.Edge.Test_Edge -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->

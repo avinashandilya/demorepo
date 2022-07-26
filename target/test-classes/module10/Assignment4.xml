@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Write a TestScript to execute Multiple Classes from different packages in Maven -->
+
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="browser.Scripts.Test_Chrome"/>
+      <class name="topic_TestNG_examples.Test7_Prioritization"/>
+      <class name="allClassFilesHere.Test4_HandlingFrame_Index"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

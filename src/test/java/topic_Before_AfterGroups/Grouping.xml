@@ -1,0 +1,25 @@
+<suite parallel="false" name="Suite">
+<test name="Test">
+
+<groups>
+	<run>
+		<!--    <include name="db"></include>
+   			<include name="ui">
+   			</include>  -->
+		<!--  <exclude name="ui"></exclude>  -->
+	</run>
+</groups>
+
+<classes>
+<class name="topic_Before_AfterGroups.BeforeAfterGroups">
+<methods>
+<!--   <include name="test_Dashboard"></include>
+      <include name="test_Admin"></include>  -->
+<exclude name="test_Dashboard"/>
+</methods>
+</class>
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->

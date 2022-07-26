@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Write a TestScript to execute Test Suite  in Maven -->
+
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <packages>
+    <package name ="browser.Scripts">
+    </package>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

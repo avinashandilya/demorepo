@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Write a TestScript to execute Multiple Suite Files in  Maven -->
+
+<suite parallel="false" name="Suite">
+
+  <suite-files> 
+  				<suite-file path="Assignment1.xml" />
+  				<suite-file path="Assignment2.xml" />
+  
+  </suite-files>
+  
+</suite> <!-- Suite -->
+
+

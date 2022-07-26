@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+  <test name="Test1_Chrome">
+  <parameter name="browser" value="chrome">
+  </parameter>
+   <parameter name="username" value="standard_user">
+  </parameter>
+   <parameter name="password" value="secret_sauce">
+  </parameter>
+     <classes>
+      <class name="topic_ITest_ContextResult.Testresultcontext2"/>
+    </classes>
+  </test> 
+  
+   <test name="Test2_FF">
+  <parameter name="browser" value="ff">
+  </parameter>
+   <parameter name="username" value="standard_user">
+  </parameter>
+   <parameter name="password" value="invalidpwd">
+  </parameter>
+  
+     <classes>
+      <class name="topic_ITest_ContextResult.Testresultcontext2"/>
+    </classes>
+  </test> 
+  
+   <test name="Test3_edge">
+  <parameter name="browser" value="edge">
+  </parameter>
+   <parameter name="username" value="invstandard_user">
+  </parameter>
+   <parameter name="password" value="invsecret_sauce">
+  </parameter>
+     <classes>
+      <class name="topic_ITest_ContextResult.Testresultcontext2"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->
