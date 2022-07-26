@@ -16,6 +16,9 @@ public class Test_Firefox {
 			
 			//TC-2 Goto Test URL https://www.google.com
 			driver.get("https://www.selenium.dev/");
+			Thread.sleep(3000);
+			
+			System.out.println("this project is updated by avinash");
 			
 			//TC-3 Specify Wait Time for 5 Sec
 			Thread.sleep(3000);
